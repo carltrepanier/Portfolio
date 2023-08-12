@@ -32,15 +32,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-// CIpKcFrw_grNVM49z
-// template_dhg5pjj
-// service_m2fji9d
+    
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        // "service_m2fji9d",
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        // "template_dhg5pjj",
         {
           from_name: form.name,
           to_name: "Carl",
@@ -49,7 +45,6 @@ const Contact = () => {
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-        // "CIpKcFrw_grNVM49z"
       )
       .then(
         () => {
