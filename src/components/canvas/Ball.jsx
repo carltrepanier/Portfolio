@@ -40,7 +40,7 @@ const Ball = (props) => {
 	);
 };
 
-const BallCanvas = ({ icon }) => {
+export default function BallCanvas({ icon }) {
 	return (
 		<Canvas
 			frameloop="always"
@@ -55,6 +55,4 @@ const BallCanvas = ({ icon }) => {
 			<Preload all />
 		</Canvas>
 	);
-};
-
-export default BallCanvas;
+}
