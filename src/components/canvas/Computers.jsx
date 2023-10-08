@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
-import React, { Suspense, useState, useEffect } from "react";
+import React, { Suspense, useState, useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
@@ -33,6 +33,24 @@ const Computers = ({ isMobile }) => {
 
 export default function ComputersCanvas() {
 	const [isMobile, setIsMobile] = useState(false);
+	const [isManipulated, setIsManipulated] = useState(false);
+	const controlsRef = useRef();
+	const resetPosition = () => {
+		if (controlsRef.current) {
+			controlsRef.current.reset();
+		}
+	};
+
+	useEffect(() => {
+		if (isManipulated) {
+			const timer = setTimeout(() => {
+				resetPosition();
+				setIsManipulated(false);
+			}, 1000);
+
+			return () => clearTimeout(timer);
+		}
+	}, [isManipulated]);
 
 	useEffect(() => {
 		// Add a listener for changes to the screen size
@@ -68,6 +86,8 @@ export default function ComputersCanvas() {
 					enableZoom={false}
 					maxPolarAngle={Math.PI / 2}
 					minPolarAngle={Math.PI / 2}
+					ref={controlsRef}
+					onChange={() => setIsManipulated(true)}
 				/>
 				<Computers isMobile={isMobile} />
 			</Suspense>
