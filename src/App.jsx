@@ -2,6 +2,7 @@
 import { BrowserRouter } from "react-router-dom";
 import {
 	About,
+	Services,
 	Contact,
 	Experience,
 	Feedbacks,
@@ -24,6 +25,7 @@ export default function App() {
 						<Hero />
 					</div>
 					<About />
+					<Services />
 					<Experience />
 					<Tech />
 					<Works />
