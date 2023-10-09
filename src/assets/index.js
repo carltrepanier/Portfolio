@@ -28,7 +28,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import conferenceasd from "./conference-asd.png";
 import jobit from "./jobit.png";
+import nikeclone from "./nikeclone.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -59,6 +61,8 @@ export {
 	starbucks,
 	tesla,
 	carrent,
+	nikeclone,
 	jobit,
+	conferenceasd,
 	tripguide,
 };

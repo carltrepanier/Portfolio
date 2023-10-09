@@ -19,8 +19,8 @@ import {
 	starbucks,
 	tesla,
 	shopify,
-	carrent,
-	jobit,
+	nikeclone,
+	conferenceasd,
 	tripguide,
 	threejs,
 } from "../assets";
@@ -188,11 +188,11 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+			"Carl est à l'écoute des besoins de son client et cherche à répondre aux demandes de manière professionnelle et créative!",
+		name: "Annick St-Denis",
+		designation: "Conférencière",
+		company: "Conférence ASD",
+		image: "src/assets/images/annick-st-denis.png",
 	},
 	{
 		testimonial:
@@ -206,46 +206,46 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Nike clone",
 		description:
 			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
 		tags: [
 			{
-				name: "react",
+				name: "React",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "Vitejs",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Tailwind CSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: nikeclone,
+		source_code_link: "https://github.com/carltrepanier/Nike_clone",
 	},
 	{
-		name: "Job IT",
+		name: "Conférence ASD",
 		description:
 			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
 		tags: [
 			{
-				name: "react",
+				name: "ASP.NET MVC",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "SQL",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "CSS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: conferenceasd,
+		source_code_link: "",
 	},
 	{
 		name: "Trip Guide",
