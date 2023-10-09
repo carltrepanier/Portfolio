@@ -218,6 +218,7 @@ const projects = [
 		],
 		image: nikeclone,
 		source_code_link: "https://github.com/carltrepanier/Nike_clone",
+		subdomain_link: "https://nikeclone.carltrepanier.net/",
 	},
 	{
 		name: "Conférence ASD",
