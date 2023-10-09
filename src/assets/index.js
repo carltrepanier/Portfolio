@@ -33,9 +33,6 @@ import jobit from "./jobit.png";
 import nikeclone from "./nikeclone.png";
 import tripguide from "./tripguide.png";
 
-import annickstdenis from "./images/annick-st-denis.jpg";
-import liamsanche from "./images/liam-sanche.jpg";
-
 export {
 	logo,
 	backend,
@@ -68,6 +65,4 @@ export {
 	jobit,
 	conferenceasd,
 	tripguide,
-	annickstdenis,
-	liamsanche,
 };

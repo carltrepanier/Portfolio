@@ -22,8 +22,6 @@ import {
 	nikeclone,
 	conferenceasd,
 	threejs,
-	liamsanche,
-	annickstdenis,
 } from "../assets";
 
 export const navLinks = [
@@ -185,7 +183,7 @@ const testimonials = [
 		name: "Liam Sanche",
 		designation: "Programmeur-Analyste",
 		company: "Hébert Communication",
-		image: liamsanche,
+		image: "src/assets/images/liam_sanche.png",
 	},
 	{
 		testimonial:
@@ -193,7 +191,7 @@ const testimonials = [
 		name: "Annick St-Denis",
 		designation: "Conférencière",
 		company: "Conférence ASD",
-		image: annickstdenis,
+		image: "src/assets/images/annick-st-denis.png",
 	},
 ];
 
