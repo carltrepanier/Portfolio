@@ -21,7 +21,6 @@ import {
 	shopify,
 	nikeclone,
 	conferenceasd,
-	tripguide,
 	threejs,
 } from "../assets";
 
@@ -54,11 +53,11 @@ const services = [
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Web App Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Full-Stack Developer",
 		icon: backend,
 	},
 	{
@@ -93,6 +92,10 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
+		name: "Three JS",
+		icon: threejs,
+	},
+	{
 		name: "Redux Toolkit",
 		icon: redux,
 	},
@@ -107,10 +110,6 @@ const technologies = [
 	{
 		name: "MongoDB",
 		icon: mongodb,
-	},
-	{
-		name: "Three JS",
-		icon: threejs,
 	},
 	{
 		name: "git",
@@ -194,14 +193,6 @@ const testimonials = [
 		company: "Conférence ASD",
 		image: "src/assets/images/annick-st-denis.png",
 	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
 ];
 
 const projects = [
@@ -246,27 +237,6 @@ const projects = [
 		],
 		image: conferenceasd,
 		source_code_link: "",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
 	},
 ];
 
