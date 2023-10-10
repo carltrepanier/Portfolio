@@ -15,7 +15,7 @@ import {
 	git,
 	figma,
 	nextjs,
-	starbucks,
+	hebertcom,
 	nikeclone,
 	conferenceasd,
 	threejs,
@@ -124,7 +124,7 @@ const experiences = [
 	{
 		title: "Développeur web",
 		company_name: "Hébert Communication",
-		icon: starbucks,
+		icon: hebertcom,
 		iconBg: "#383E56",
 		date: "Juin 2023 à aujourd'hui",
 		points: [

@@ -26,6 +26,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hebertcom from "./company/hebertcom.png";
 
 import carrent from "./carrent.png";
 import conferenceasd from "./conference-asd.png";
@@ -62,6 +63,7 @@ export {
 	meta,
 	shopify,
 	starbucks,
+	hebertcom,
 	tesla,
 	carrent,
 	nikeclone,
