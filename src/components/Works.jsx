@@ -57,7 +57,7 @@ const ProjectCard = ({
 				<div className="mt-5">
 					<h3
 						className={`text-white font-bold text-[24px] ${
-							subdomain_link ? "hover:underline" : ""
+							subdomain_link ? "hover:text-secondary hover:underline" : ""
 						}`}
 					>
 						<a href={subdomain_link} target="_blank" rel="noopener noreferrer">
