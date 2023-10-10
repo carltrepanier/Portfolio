@@ -49,12 +49,12 @@ const About = () => {
 				variants={fadeIn("", "", 0.5, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				I&apos;m a skilled software developer with experience in TypeScript and
-				JavaScript, and expertise in frameworks like React, Node.js, and
-				Three.js. I&apos;m a quick learner and collaborate closely with clients
-				to create efficient, scalable, and user-friendly solutions that solve
-				real-world problems. Let&apos;s work together to bring your ideas to
-				life!
+				Je suis un développeur web compétent avec de l&apos;expérience en
+				TypeScript et JavaScript, et une expertise dans des frameworks comme
+				Next.js, React, Node.js et Three.js. J&apos;apprend rapidement et je
+				collabore étroitement avec les clients pour créer des solutions
+				efficaces, évolutives et conviviales qui résolvent des problèmes réels.
+				Travaillons ensemble pour donner vie à vos idées!
 			</motion.p>
 		</>
 	);
