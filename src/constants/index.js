@@ -157,7 +157,8 @@ const testimonials = [
 const projects = [
 	{
 		name: "Nike clone",
-		description: "",
+		description:
+			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Nike en utilisant Vite.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Nike, et sert à montrer mes compétences techniques.",
 		tags: [
 			{
 				name: "React",
@@ -178,7 +179,8 @@ const projects = [
 	},
 	{
 		name: "Conférence ASD",
-		description: "",
+		description:
+			"Application web fait dans le cadre d'un projet scolaire. Cette application permet de gérer les conférences d'une entreprise. Elle permet de gérer les conférenciers, les conférences, les clients et les réservations.",
 		tags: [
 			{
 				name: "ASP.NET MVC",
