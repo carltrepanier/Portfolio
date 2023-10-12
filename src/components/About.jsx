@@ -40,13 +40,15 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
 	return (
 		<>
-			<motion.div variants={textVariant()}>
+			<motion.div variants={textVariant()} initial="hidden" whileInView="show">
 				<p className={`${styles.sectionSubText}`}>À propos</p>
 				<h2 className={`${styles.sectionHeadText}`}>Qui suis-je?</h2>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.5, 1)}
+				initial="hidden"
+				whileInView="show"
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
 				Je suis un développeur web compétent avec de l&apos;expérience en

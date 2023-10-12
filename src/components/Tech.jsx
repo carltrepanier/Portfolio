@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Tech = () => {
 	return (
 		<>
-			<motion.div variants={textVariant()}>
+			<motion.div initial="hidden" whileInView="show" variants={textVariant()}>
 				<p className={`${styles.sectionSubText}`}>Technologies</p>
 				<h2 className={`${styles.sectionHeadText}`}>
 					Tech les plus utilisées.
@@ -18,6 +18,8 @@ const Tech = () => {
 			</motion.div>
 
 			<motion.div
+				initial="hidden"
+				whileInView="show"
 				variants={fadeIn("", "", 0.5, 1)}
 				className="flex flex-row flex-wrap justify-center gap-10 mt-10"
 			>

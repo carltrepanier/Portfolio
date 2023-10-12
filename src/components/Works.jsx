@@ -20,7 +20,11 @@ const ProjectCard = ({
 	subdomain_link,
 }) => {
 	return (
-		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+		<motion.div
+			initial="hidden"
+			whileInView="show"
+			variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+		>
 			<Tilt
 				options={{
 					max: 45,
@@ -85,13 +89,15 @@ const ProjectCard = ({
 const Works = () => {
 	return (
 		<>
-			<motion.div variants={textVariant()}>
+			<motion.div initial="hidden" whileInView="show" variants={textVariant()}>
 				<p className={`${styles.sectionSubText} `}>Portfolio</p>
 				<h2 className={`${styles.sectionHeadText}`}>Projets réalisés.</h2>
 			</motion.div>
 
 			<div className="w-full flex">
 				<motion.p
+					initial="hidden"
+					whileInView="show"
 					variants={fadeIn("", "", 0.5, 1)}
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				>

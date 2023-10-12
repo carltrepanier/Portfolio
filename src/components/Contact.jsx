@@ -72,6 +72,8 @@ const Contact = () => {
 		>
 			<motion.div
 				variants={slideIn("left", "tween", 0.2, 1)}
+				initial="hidden"
+				whileInView="show"
 				className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
 			>
 				<p className={`${styles.sectionSubText}`}>Entrons en contact</p>
@@ -129,6 +131,8 @@ const Contact = () => {
 
 			<motion.div
 				variants={slideIn("right", "tween", 0.2, 1)}
+				initial="hidden"
+				whileInView="show"
 				className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
 			>
 				<EarthCanvas />

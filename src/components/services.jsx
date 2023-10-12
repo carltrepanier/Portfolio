@@ -16,6 +16,8 @@ const ServiceCard = ({ index, title, icon }) => {
 	return (
 		<Tilt className="xs:w-[250px] w-full">
 			<motion.div
+				initial="hidden"
+				whileInView="show"
 				variants={fadeIn("right", "spring", index * 0.5, 0.75)}
 				className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
 			>
@@ -41,7 +43,7 @@ const ServiceCard = ({ index, title, icon }) => {
 const Services = () => {
 	return (
 		<>
-			<motion.div variants={textVariant()}>
+			<motion.div initial="hidden" whileInView="show" variants={textVariant()}>
 				<p className={`${styles.sectionSubText}`}>Services</p>
 				<h2 className={`${styles.sectionHeadText}`}>Services offerts.</h2>
 			</motion.div>
