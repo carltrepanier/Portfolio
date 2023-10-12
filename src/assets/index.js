@@ -31,6 +31,7 @@ import hebertcom from "./company/hebertcom.png";
 import carrent from "./carrent.png";
 import conferenceasd from "./conference-asd.png";
 import jobit from "./jobit.png";
+import metaversusclone from "./metaversusclone.png";
 import nikeclone from "./nikeclone.png";
 import tripguide from "./tripguide.png";
 
@@ -66,6 +67,7 @@ export {
 	hebertcom,
 	tesla,
 	carrent,
+	metaversusclone,
 	nikeclone,
 	jobit,
 	conferenceasd,

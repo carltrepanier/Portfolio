@@ -16,6 +16,7 @@ import {
 	figma,
 	nextjs,
 	hebertcom,
+	metaversusclone,
 	nikeclone,
 	conferenceasd,
 	threejs,
@@ -161,12 +162,12 @@ const projects = [
 			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Nike en utilisant Vite.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Nike, et sert à montrer mes compétences techniques.",
 		tags: [
 			{
-				name: "React",
+				name: "React.js",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "Vitejs",
-				color: "green-text-gradient",
+				name: "Vite.js",
+				color: "blue-text-gradient",
 			},
 			{
 				name: "Tailwind CSS",
@@ -176,6 +177,28 @@ const projects = [
 		image: nikeclone,
 		source_code_link: "https://github.com/carltrepanier/Nike_clone",
 		subdomain_link: "https://nikeclone.carltrepanier.net/",
+	},
+	{
+		name: "Metaversus clone",
+		description:
+			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Metaversus Madness en utilisant Next.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Metaversus, et sert à montrer mes compétences techniques.",
+		tags: [
+			{
+				name: "Next.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "React.js",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Tailwind CSS",
+				color: "pink-text-gradient",
+			},
+		],
+		image: metaversusclone,
+		source_code_link: "https://github.com/carltrepanier/Metaversus_clone",
+		subdomain_link: "https://metaversusclone.carltrepanier.net/",
 	},
 	{
 		name: "Conférence ASD",
