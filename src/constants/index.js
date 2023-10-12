@@ -181,7 +181,7 @@ const projects = [
 	{
 		name: "Metaversus clone",
 		description:
-			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Metaversus Madness en utilisant Next.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Metaversus, et sert à montrer mes compétences techniques.",
+			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Metaversus en utilisant Next.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Metaversus, et sert à montrer mes compétences techniques.",
 		tags: [
 			{
 				name: "Next.js",
