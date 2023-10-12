@@ -31,7 +31,7 @@ export default function Navbar() {
 
 	return (
 		<>
-			<nav
+			<header
 				className={`${
 					styles.paddingX
 				} w-full flex items-center py-5 fixed top-0 z-20 bg-primary ${
@@ -60,7 +60,7 @@ export default function Navbar() {
 						</p>
 					</Link>
 
-					<ul className="list-none hidden sm:flex flex-row gap-10">
+					<nav className="list-none hidden sm:flex flex-row gap-10">
 						{navLinks.map((link) => (
 							<li
 								key={link.id}
@@ -72,7 +72,7 @@ export default function Navbar() {
 								<a href={`#${link.id}`}>{link.title}</a>
 							</li>
 						))}
-					</ul>
+					</nav>
 
 					<div className="sm:hidden flex flex-1 justify-end items-center">
 						<img
@@ -105,7 +105,7 @@ export default function Navbar() {
 						</div>
 					</div>
 				</div>
-			</nav>
+			</header>
 
 			{showScrollButton && (
 				<button
