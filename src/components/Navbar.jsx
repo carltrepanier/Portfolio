@@ -55,7 +55,7 @@ export default function Navbar() {
 						<p className="text-white text-[18px] font-bold cursor-pointer">
 							Carl Trépanier
 							<span className="sm:block hidden text-secondary">
-								| Développeur web
+								| Développeur full-stack
 							</span>
 						</p>
 					</Link>
