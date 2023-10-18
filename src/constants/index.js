@@ -1,7 +1,6 @@
 import {
 	mobile,
 	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
@@ -54,15 +53,15 @@ const services = [
 	},
 	{
 		title: "Développement d'applications web",
-		icon: mobile,
+		icon: web,
 	},
 	{
 		title: "Développement d'applications mobiles",
-		icon: backend,
+		icon: mobile,
 	},
 	{
 		title: "Développement full-stack",
-		icon: creator,
+		icon: backend,
 	},
 ];
 
