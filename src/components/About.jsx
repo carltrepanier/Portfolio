@@ -53,10 +53,11 @@ const About = () => {
 			>
 				Je suis un développeur web compétent avec de l&apos;expérience en
 				TypeScript et JavaScript, et une expertise dans des frameworks comme
-				Next.js, React, Node.js et Three.js. J&apos;apprend rapidement et je
-				collabore étroitement avec les clients pour créer des solutions
-				efficaces, évolutives et conviviales qui résolvent des problèmes réels.
-				Travaillons ensemble pour donner vie à vos idées!
+				Next.js, React, Node.js et Three.js. Je peux aussi faire des sites avec
+				WordPress, Shopify et Sanity. J&apos;apprend rapidement et je collabore
+				étroitement avec les clients pour créer des solutions efficaces,
+				évolutives et conviviales qui résolvent des problèmes réels. Travaillons
+				ensemble pour donner vie à vos idées!
 			</motion.p>
 		</>
 	);
