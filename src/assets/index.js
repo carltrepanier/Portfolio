@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import hebertcom from "./company/hebertcom.png";
+import bev from "./company/bev.png";
 
 import carrent from "./carrent.png";
 import conferenceasd from "./conference-asd.png";
@@ -37,6 +38,7 @@ import tripguide from "./tripguide.png";
 
 import liamsanche from "./images/liam_sanche.png";
 import annickstdenis from "./images/annick-st-denis.png";
+import gentremblay from "./images/genbev.jpg";
 
 export {
 	logo,
@@ -65,6 +67,7 @@ export {
 	shopify,
 	starbucks,
 	hebertcom,
+	bev,
 	tesla,
 	carrent,
 	metaversusclone,
@@ -74,4 +77,5 @@ export {
 	tripguide,
 	liamsanche,
 	annickstdenis,
+	gentremblay,
 };

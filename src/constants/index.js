@@ -15,12 +15,14 @@ import {
 	figma,
 	nextjs,
 	hebertcom,
+	bev,
 	metaversusclone,
 	nikeclone,
 	conferenceasd,
 	threejs,
 	liamsanche,
 	annickstdenis,
+	gentremblay,
 } from "../assets";
 
 export const navLinks = [
@@ -122,12 +124,26 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Développeur web",
+		title: "Développeur web pigiste",
+		company_name: "Bonheur en vrac",
+		icon: bev,
+		iconBg: "#383E56",
+		date: "Novembre 2023 à aujourd'hui",
+		points: [
+			"Apporter mon expertise dans certains mandats comme développeur pigiste.",
+			"Développement et maintenance de sites web en utilisant WordPress et d'autres technologies connexes.",
+			"Collaboration avec d'autres développeurs pour créer des produits de haute qualité.",
+			"Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.",
+		],
+	},
+	{
+		title: "Développeur web pigiste",
 		company_name: "Hébert Communication",
 		icon: hebertcom,
 		iconBg: "#383E56",
 		date: "Juin 2023 à aujourd'hui",
 		points: [
+			"Apporter mon expertise dans certains mandats comme développeur pigiste.",
 			"Développement et maintenance de sites web en utilisant WordPress et d'autres technologies connexes.",
 			"Collaboration avec d'autres développeurs pour créer des produits de haute qualité.",
 			"Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.",
@@ -136,6 +152,14 @@ const experiences = [
 ];
 
 const testimonials = [
+	{
+		testimonial:
+			"Carl est un excellent collaborateur de notre équipe : Il est compétent, évidemment! Mais plus important encore, il est bien organisé, proactif et a une excellente attitude constructive face aux défis du développement web.",
+		name: "Geneviève Tremblay",
+		designation: "Stratège numérique",
+		company: "Bonheur en vrac",
+		image: gentremblay,
+	},
 	{
 		testimonial:
 			"Si vous voulez avoir un site web bien fait, je choisirais mon bon ami Carl à chaque fois. Je n'ai jamais rencontré une personne plus méticuleuse et axée sur les détails de ma vie.",
