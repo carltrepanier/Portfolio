@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-no-undef */
 /* eslint-disable react-refresh/only-export-components */
-/* eslint-disable no-unused-vars */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";

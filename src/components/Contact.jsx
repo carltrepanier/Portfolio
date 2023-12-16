@@ -1,7 +1,5 @@
-/* eslint-disable no-undef */
 /* eslint-disable react-refresh/only-export-components */
-/* eslint-disable no-unused-vars */
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";

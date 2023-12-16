@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -55,7 +54,7 @@ export default function Navbar() {
 						<p className="text-white text-[18px] font-bold cursor-pointer">
 							Carl Trépanier
 							<span className="sm:block hidden text-secondary">
-								| Développeur full-stack
+								| Conception CT
 							</span>
 						</p>
 					</Link>

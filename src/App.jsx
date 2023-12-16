@@ -10,6 +10,7 @@ import {
 	Tech,
 	Works,
 	StarsCanvas,
+	Footer,
 } from "./components";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
@@ -33,6 +34,7 @@ export default function App() {
 						<Contact />
 						<StarsCanvas />
 					</div>
+					<Footer />
 				</div>
 			</BrowserRouter>
 		</I18nextProvider>

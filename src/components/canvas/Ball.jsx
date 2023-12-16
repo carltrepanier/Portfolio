@@ -1,8 +1,6 @@
-/* eslint-disable no-undef */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React, { Suspense, useState, useRef, useEffect } from "react";
+import { Suspense, useState, useRef, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
 	Decal,
