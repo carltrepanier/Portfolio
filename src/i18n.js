@@ -1,7 +1,7 @@
-import { initReactI18next } from "react-i18next";
-import i18n from "i18next";
-import enTranslation from "../locales/en.json";
-import frTranslation from "../locales/fr.json";
+import { initReactI18next } from 'react-i18next';
+import i18n from 'i18next';
+import enTranslation from '../public/locales/en.json';
+import frTranslation from '../public/locales/fr.json';
 
 export default i18n.use(initReactI18next).init({
 	resources: {
@@ -12,8 +12,8 @@ export default i18n.use(initReactI18next).init({
 			translation: frTranslation,
 		},
 	},
-	lng: "en",
-	fallbackLng: "en",
+	lng: 'en',
+	fallbackLng: 'en',
 	interpolation: {
 		escapeValue: false,
 	},
