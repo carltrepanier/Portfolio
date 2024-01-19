@@ -28,6 +28,7 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 import hebertcom from './company/hebertcom.png';
 import bev from './company/bev.png';
+import adssys from './company/adssys.png';
 
 import carrent from './carrent.png';
 import conferenceasd from './conference-asd.png';
@@ -69,6 +70,7 @@ export {
 	starbucks,
 	hebertcom,
 	bev,
+	adssys,
 	tesla,
 	carrent,
 	metaversusclone,

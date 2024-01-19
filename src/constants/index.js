@@ -16,6 +16,7 @@ import {
 	nextjs,
 	hebertcom,
 	bev,
+	adssys,
 	metaversusclone,
 	nikeclone,
 	ecommerce,
@@ -124,6 +125,19 @@ const technologies = [
 ];
 
 const experiences = [
+	{
+		title: 'Développeur web pigiste',
+		company_name: 'Adssys',
+		icon: adssys,
+		iconBg: '#383E56',
+		date: "Décembre 2023 à aujourd'hui",
+		points: [
+			'Apporter mon expertise dans certains mandats comme développeur pigiste.',
+			"Développement et maintenance de sites web en utilisant WordPress et d'autres technologies connexes.",
+			"Collaboration avec d'autres développeurs pour créer des produits de haute qualité.",
+			'Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.',
+		],
+	},
 	{
 		title: 'Développeur web pigiste',
 		company_name: 'Bonheur en vrac',
