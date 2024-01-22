@@ -25,6 +25,7 @@ import {
 	liamsanche,
 	annickstdenis,
 	gentremblay,
+	emmanuellecote,
 } from '../assets';
 
 export const navLinks = [
@@ -167,6 +168,14 @@ const experiences = [
 ];
 
 const testimonials = [
+	{
+		testimonial:
+			"Ma première collaboration avec Carl fut très positive! J'avais besoin de lui pour faire des modifications dans un site web désuet et il a traité ma demande avec grand professionnalisme. Je l'ai trouvé très à l'écoute de mes besoins, il m'a fait de bonnes suggestions, il était très efficace et fiable, ses indications étaient claires et il savait bien vulgariser les choses. Carl est définitivement une personne de confiance à qui vous pouvez confier vos mandats web! ",
+		name: 'Emmanuelle Côté',
+		designation: 'Gestionnaire de projets',
+		company: 'Erod agence créative',
+		image: emmanuellecote,
+	},
 	{
 		testimonial:
 			'Carl est un excellent collaborateur de notre équipe : Il est compétent, évidemment! Mais plus important encore, il est bien organisé, proactif et a une excellente attitude constructive face aux défis du développement web.',

@@ -41,6 +41,7 @@ import tripguide from './tripguide.png';
 import liamsanche from './images/liam_sanche.png';
 import annickstdenis from './images/annick-st-denis.png';
 import gentremblay from './images/genbev.jpg';
+import emmanuellecote from './images/emmanuelle_cote.png';
 
 export {
 	logo,
@@ -82,4 +83,5 @@ export {
 	liamsanche,
 	annickstdenis,
 	gentremblay,
+	emmanuellecote,
 };
