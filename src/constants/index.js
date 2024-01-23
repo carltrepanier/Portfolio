@@ -127,7 +127,7 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Développeur web pigiste',
+		title: 'Développeur full-stack pigiste',
 		company_name: 'Adssys',
 		icon: adssys,
 		iconBg: '#383E56',
