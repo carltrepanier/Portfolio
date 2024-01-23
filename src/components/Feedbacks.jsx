@@ -1,11 +1,11 @@
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
+import { fadeIn, textVariant } from '../utils/motion';
+import { testimonials } from '../constants';
 
 const FeedbackCard = ({
 	index,
@@ -16,22 +16,22 @@ const FeedbackCard = ({
 	image,
 }) => (
 	<motion.div
-		variants={fadeIn("", "spring", index * 0.5, 0.75)}
-		initial="hidden"
-		whileInView="show"
-		className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+		variants={fadeIn('', 'spring', index * 0.5, 0.75)}
+		initial='hidden'
+		whileInView='show'
+		className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
 	>
-		<p className="text-white font-black text-[48px]">"</p>
+		<p className='text-white font-black text-[36px]'>"</p>
 
-		<div className="mt-1">
-			<p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+		<div className='mt-1'>
+			<p className='text-white text-[18px]'>{testimonial}</p>
 
-			<div className="mt-7 flex justify-between items-center gap-1">
-				<div className="flex-1 flex flex-col">
-					<p className="text-white font-medium text-[16px]">
-						<span className="blue-text-gradient">@</span> {name}
+			<div className='mt-7 flex justify-between items-center gap-1'>
+				<div className='flex-1 flex flex-col'>
+					<p className='text-white font-medium text-[16px]'>
+						<span className='blue-text-gradient'>@</span> {name}
 					</p>
-					<p className="mt-1 text-secondary text-[12px]">
+					<p className='mt-1 text-secondary text-[12px]'>
 						{designation} chez {company}
 					</p>
 				</div>
@@ -39,7 +39,7 @@ const FeedbackCard = ({
 				<img
 					src={image}
 					alt={`feedback_by-${name}`}
-					className="w-10 h-10 rounded-full object-cover"
+					className='w-10 h-10 rounded-full object-cover'
 				/>
 			</div>
 		</div>
@@ -54,8 +54,8 @@ const Feedbacks = () => {
 			>
 				<motion.div
 					variants={textVariant()}
-					initial="hidden"
-					whileInView="show"
+					initial='hidden'
+					whileInView='show'
 				>
 					<p className={styles.sectionSubText}>Ce que les autres disent</p>
 					<h2 className={styles.sectionHeadText}>Témoignages.</h2>
@@ -72,4 +72,4 @@ const Feedbacks = () => {
 	);
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, '');
