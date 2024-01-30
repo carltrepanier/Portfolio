@@ -19,7 +19,6 @@ import {
 	adssys,
 	metaversusclone,
 	nikeclone,
-	ecommerce,
 	conferenceasd,
 	threejs,
 	liamsanche,
@@ -203,28 +202,6 @@ const testimonials = [
 ];
 
 const projects = [
-	{
-		name: 'Boutique en ligne',
-		description:
-			"Pour démontrer mes compétences en développement web et design, j'ai réalisé une boutique en ligne en utilisant Next.js, Stripe, TypeScript et SCSS et le CMS Payload. Ce projet est éducatif et sert à montrer mes compétences techniques.",
-		tags: [
-			{
-				name: 'Next.js',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'Payload CMS',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'SCSS',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: ecommerce,
-		source_code_link: 'https://github.com/carltrepanier/e-commerce',
-		subdomain_link: 'https://e-commerce-ct.payloadcms.app/',
-	},
 	{
 		name: 'Nike clone',
 		description:

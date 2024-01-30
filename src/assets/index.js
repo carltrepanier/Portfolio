@@ -35,7 +35,6 @@ import conferenceasd from './conference-asd.png';
 import jobit from './jobit.png';
 import metaversusclone from './metaversusclone.png';
 import nikeclone from './nikeclone.png';
-import ecommerce from './ecommerce.png';
 import tripguide from './tripguide.png';
 
 import liamsanche from './images/liam_sanche.png';
@@ -76,7 +75,6 @@ export {
 	carrent,
 	metaversusclone,
 	nikeclone,
-	ecommerce,
 	jobit,
 	conferenceasd,
 	tripguide,
