@@ -25,6 +25,7 @@ import {
 	annickstdenis,
 	gentremblay,
 	emmanuellecote,
+	samgarneau,
 } from '../assets';
 
 export const navLinks = [
@@ -182,6 +183,13 @@ const testimonials = [
 		designation: 'Stratège numérique',
 		company: 'Bonheur en vrac',
 		image: gentremblay,
+	},
+	{
+		testimonial: `Carl est une personne que j'ai eu le plaisir de voir évoluer en tant que programmeur tout au long de son parcours chez Multihexa. Pour le décrire en un mot, je choisirais "méticuleux". Les détails ne lui échappent pas, et il est prêt à investir le temps et les efforts nécessaires pour que tout soit conforme aux exigences. De plus, Carl prend l'initiative lorsque des questions sont soulevées, cherchant toujours à clarifier la situation. C'est le type de coéquipier que j'aurais été ravi d'avoir dans un autre contexte!`,
+		name: 'Samuel Garneau',
+		designation: 'Enseignant',
+		company: 'Collège Multihexa',
+		image: samgarneau,
 	},
 	{
 		testimonial:
