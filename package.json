@@ -14,7 +14,7 @@
     "@react-three/drei": "^9.94.1",
     "@react-three/fiber": "^8.15.15",
     "@vercel/analytics": "^1.1.2",
-    "i18next": "^23.7.19",
+    "i18next": "^23.8.1",
     "framer-motion": "^10.18.0",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-http-backend": "^2.4.1",
