@@ -26,6 +26,7 @@ import {
 	gentremblay,
 	emmanuellecote,
 	samgarneau,
+	martinchoquette,
 } from '../assets';
 
 export const navLinks = [
@@ -170,7 +171,15 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"Ma première collaboration avec Carl fut très positive! J'avais besoin de lui pour faire des modifications dans un site web désuet et il a traité ma demande avec grand professionnalisme. Je l'ai trouvé très à l'écoute de mes besoins, il m'a fait de bonnes suggestions, il était très efficace et fiable, ses indications étaient claires et il savait bien vulgariser les choses. Carl est définitivement une personne de confiance à qui vous pouvez confier vos mandats web! ",
+			"Carl est un développeur Web exceptionnel dont la maîtrise technique et la créativité font de chaque projet un succès. Sa capacité à comprendre nos besoins et à les traduire en solutions fonctionnelles et innovantes est impressionnante. Travailler avec lui est toujours un plaisir, car il est réactif, professionnel et dédié à l'excellence.",
+		name: 'Martin Choquette-Scott',
+		designation: 'Développeur web',
+		company: 'Catapulte communication',
+		image: martinchoquette,
+	},
+	{
+		testimonial:
+			"Ma première collaboration avec Carl fut très positive! J'avais besoin de lui pour faire des modifications dans un site web désuet et il a traité ma demande avec grand professionnalisme. Je l'ai trouvé très à l'écoute de mes besoins, il m'a fait de bonnes suggestions, il était très efficace et fiable, ses indications étaient claires et il savait bien vulgariser les choses. Carl est définitivement une personne de confiance à qui vous pouvez confier vos mandats web!",
 		name: 'Emmanuelle Côté',
 		designation: 'Gestionnaire de projets',
 		company: 'Erod agence créative',

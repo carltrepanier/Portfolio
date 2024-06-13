@@ -42,6 +42,7 @@ import annickstdenis from './images/annick-st-denis.png';
 import gentremblay from './images/genbev.jpg';
 import emmanuellecote from './images/emmanuelle_cote.png';
 import samgarneau from './images/sam_garneau.jpg';
+import martinchoquette from './images/martin_choquette.jpg';
 
 export {
 	logo,
@@ -84,4 +85,5 @@ export {
 	gentremblay,
 	emmanuellecote,
 	samgarneau,
+	martinchoquette,
 };
