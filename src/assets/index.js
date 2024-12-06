@@ -23,10 +23,15 @@ import typescript from './tech/typescript.png';
 import adssys from './company/adssys.png';
 import bev from './company/bev.png';
 import hebertcom from './company/hebertcom.png';
+import mangoLab from './company/mangolab_agency_logo.jpg';
 
+import ccm from './ccm.png';
 import conferenceasd from './conference-asd.png';
+import itaq from './itaq.png';
+import lefil from './lefil.png';
 import metaversusclone from './metaversusclone.png';
 import nikeclone from './nikeclone.png';
+import tmb from './tmb.png';
 
 import annickstdenis from './images/annick-st-denis.png';
 import emmanuellecote from './images/emmanuelle_cote.png';
@@ -40,6 +45,7 @@ export {
 	annickstdenis,
 	backend,
 	bev,
+	ccm,
 	close,
 	conferenceasd,
 	creator,
@@ -51,8 +57,11 @@ export {
 	github,
 	hebertcom,
 	html,
+	itaq,
 	javascript,
+	lefil,
 	liamsanche,
+	mangoLab,
 	martinchoquette,
 	menu,
 	metaversusclone,
@@ -66,6 +75,7 @@ export {
 	samgarneau,
 	tailwind,
 	threejs,
+	tmb,
 	typescript,
 	web,
 };

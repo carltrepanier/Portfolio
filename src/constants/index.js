@@ -1,32 +1,37 @@
 import {
-	mobile,
+	adssys,
+	annickstdenis,
 	backend,
-	web,
-	javascript,
-	typescript,
-	html,
+	bev,
+	ccm,
+	conferenceasd,
 	css,
+	emmanuellecote,
+	figma,
+	gentremblay,
+	git,
+	hebertcom,
+	html,
+	itaq,
+	javascript,
+	lefil,
+	liamsanche,
+	mangoLab,
+	martinchoquette,
+	metaversusclone,
+	mobile,
+	mongodb,
+	nextjs,
+	nikeclone,
+	nodejs,
 	reactjs,
 	redux,
-	tailwind,
-	nodejs,
-	mongodb,
-	git,
-	figma,
-	nextjs,
-	hebertcom,
-	bev,
-	adssys,
-	metaversusclone,
-	nikeclone,
-	conferenceasd,
-	threejs,
-	liamsanche,
-	annickstdenis,
-	gentremblay,
-	emmanuellecote,
 	samgarneau,
-	martinchoquette,
+	tailwind,
+	threejs,
+	tmb,
+	typescript,
+	web,
 } from '../assets';
 
 export const navLinks = [
@@ -129,6 +134,20 @@ const technologies = [
 const experiences = [
 	{
 		title: 'Développeur full-stack pigiste',
+		company_name: 'Mango Lab',
+		icon: mangoLab,
+		iconBg: '#383E56',
+		date: "Avril 2024 à aujourd'hui",
+		points: [
+			'Apporter mon expertise dans certains mandats comme développeur pigiste.',
+			"Développement et maintenance de sites web en utilisant WordPress et d'autres technologies connexes.",
+			"Développement et maintenance d'applications web fait avec Laravel, Vue.js et d'autres technologies connexes.",
+			"Collaboration avec d'autres développeurs pour créer des produits de haute qualité.",
+			'Mise en œuvre de la conception responsive et garantie de la compatibilité entre les navigateurs.',
+		],
+	},
+	{
+		title: 'Développeur full-stack pigiste',
 		company_name: 'Adssys',
 		icon: adssys,
 		iconBg: '#383E56',
@@ -220,6 +239,110 @@ const testimonials = [
 
 const projects = [
 	{
+		name: 'CCM',
+		description:
+			"Site WordPress pour la Chambre de commerce de Memphrémagog. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site.",
+		tags: [
+			{
+				name: 'WordPress',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'PHP',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'JavaScript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'CSS',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: ccm,
+		source_code_link: '',
+		subdomain_link: 'https://ccmemphremagog.com/',
+	},
+	{
+		name: 'ITAQ',
+		description:
+			"Site WordPress pour l'Institut de technologie agroalimentaire du Québec. Je fait la maintenance et les mises à jour du site. J'ai aussi fait la page 'Services aux Entreprise' ainsi que d'autres modifications sur le site.",
+		tags: [
+			{
+				name: 'WordPress',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'PHP',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'JavaScript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'CSS',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: itaq,
+		source_code_link: '',
+		subdomain_link: 'https://www.itaq.ca/',
+	},
+	{
+		name: 'LeFil',
+		description:
+			"Site WordPress pour le journal Le Fil du CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site.",
+		tags: [
+			{
+				name: 'WordPress',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'PHP',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'JavaScript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'CSS',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: lefil,
+		source_code_link: '',
+		subdomain_link: 'https://lefil.ciusssestmtl.net/',
+	},
+	{
+		name: 'Toi Moi Bébé',
+		description:
+			"Site WordPress pour le CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications sur certaines pages pour améliorer le visuel ainsi que l'amélioration de la sécurité du site.",
+		tags: [
+			{
+				name: 'WordPress',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'PHP',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'JavaScript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'CSS',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: tmb,
+		source_code_link: '',
+		subdomain_link: 'https://toimoibebe.ca/',
+	},
+	{
 		name: 'Nike clone',
 		description:
 			"Pour démontrer mes compétences en développement web et design, j'ai réalisé un clone du site Nike en utilisant Vite.js, React.js, JavaScript et Tailwind CSS. Ce projet est éducatif, non affilié à Nike, et sert à montrer mes compétences techniques.",
@@ -286,4 +409,4 @@ const projects = [
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
