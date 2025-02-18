@@ -241,7 +241,7 @@ const projects = [
 	{
 		name: 'CCM',
 		description:
-			"Site WordPress pour la Chambre de commerce de Memphrémagog. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site.",
+			"Site WordPress pour la Chambre de commerce de Memphrémagog. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site. En collaboration avec l'agence Mango Lab.",
 		tags: [
 			{
 				name: 'WordPress',
@@ -267,7 +267,7 @@ const projects = [
 	{
 		name: 'ITAQ',
 		description:
-			"Site WordPress pour l'Institut de technologie agroalimentaire du Québec. Je fait la maintenance et les mises à jour du site. J'ai aussi fait la page 'Services aux Entreprise' ainsi que d'autres modifications sur le site.",
+			"Site WordPress pour l'Institut de technologie agroalimentaire du Québec. Je fait la maintenance et les mises à jour du site. J'ai aussi fait la page 'Services aux Entreprise' ainsi que d'autres modifications sur le site. En collaboration avec l'agence Mango Lab.",
 		tags: [
 			{
 				name: 'WordPress',
@@ -293,7 +293,7 @@ const projects = [
 	{
 		name: 'LeFil',
 		description:
-			"Site WordPress pour le journal Le Fil du CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site.",
+			"Site WordPress pour le journal Le Fil du CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications pour améliorer la performance du site. En collaboration avec l'agence Mango Lab.",
 		tags: [
 			{
 				name: 'WordPress',
@@ -319,7 +319,7 @@ const projects = [
 	{
 		name: 'Toi Moi Bébé',
 		description:
-			"Site WordPress pour le CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications sur certaines pages pour améliorer le visuel ainsi que l'amélioration de la sécurité du site.",
+			"Site WordPress pour le CIUSSS de Montréal. Je fait la maintenance et les mises à jour du site. J'ai aussi fait des modifications sur certaines pages pour améliorer le visuel ainsi que l'amélioration de la sécurité du site. En collaboration avec l'agence Mango Lab.",
 		tags: [
 			{
 				name: 'WordPress',
